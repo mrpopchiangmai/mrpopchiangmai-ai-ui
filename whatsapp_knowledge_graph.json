@@ -1,0 +1,1042 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "MrPopShop",
+        "label": "Mr. Pop Chiang Mai (Main Shop)",
+        "type": "Shop",
+        "meta": {
+          "address": "Sridonchai Rd, Chiang Mai"
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "CNXAirport",
+        "label": "Chiang Mai Airport (CNX)",
+        "type": "Location",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Nimman",
+        "label": "Nimman / Old City",
+        "type": "Location",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "MaeHongSonLoop",
+        "label": "Mae Hong Son Loop",
+        "type": "Route",
+        "meta": {
+          "distance": "600km",
+          "curves": 1864
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "SamoengLoop",
+        "label": "Samoeng Loop",
+        "type": "Route",
+        "meta": {
+          "distance": "100km"
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "PaiRoute",
+        "label": "Pai Highway 1095",
+        "type": "Route",
+        "meta": {
+          "curves": 762
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "IDP_License",
+        "label": "International Driving Permit (IDP Class A)",
+        "type": "Requirement",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Deposit_Cash",
+        "label": "Security Deposit (\u0e3f1k - \u0e3f5k)",
+        "type": "Requirement",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Passport_Copy",
+        "label": "Passport / ID Copy",
+        "type": "Requirement",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "HotelDelivery",
+        "label": "Hotel Delivery Service",
+        "type": "Service",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Helmets_GPS",
+        "label": "Free Helmets & Phone Holder",
+        "type": "Service",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "RoadsideAssist",
+        "label": "24/7 Roadside Assistance",
+        "type": "Service",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Click_125cc",
+        "label": "Honda Click 125cc",
+        "type": "Vehicle",
+        "meta": {
+          "category": "City Scooters",
+          "cc": 125,
+          "daily": 250,
+          "monthly": 3500,
+          "deposit": 1000,
+          "routes": [
+            "Chiang Mai City",
+            "Nimman",
+            "Old City"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "City_Scooters",
+        "label": "City Scooters",
+        "type": "Category",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Click_160cc",
+        "label": "Honda Click 160cc",
+        "type": "Vehicle",
+        "meta": {
+          "category": "City Scooters",
+          "cc": 160,
+          "daily": 350,
+          "monthly": 4500,
+          "deposit": 1000,
+          "routes": [
+            "Chiang Mai City",
+            "Doi Suthep"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_PCX_160",
+        "label": "Honda PCX 160",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Premium Scooters",
+          "cc": 160,
+          "daily": 400,
+          "monthly": 5500,
+          "deposit": 2000,
+          "routes": [
+            "City",
+            "Doi Suthep",
+            "Samoeng Loop"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Premium_Scooters",
+        "label": "Premium Scooters",
+        "type": "Category",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_NMAX_155",
+        "label": "Yamaha NMAX 155",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Premium Scooters",
+          "cc": 155,
+          "daily": 400,
+          "monthly": 5500,
+          "deposit": 2000,
+          "routes": [
+            "City",
+            "Doi Suthep",
+            "Samoeng Loop"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_Aerox_155",
+        "label": "Yamaha Aerox 155",
+        "type": "Vehicle",
+        "meta": {
+          "category": "City Scooters",
+          "cc": 155,
+          "daily": 350,
+          "monthly": 4800,
+          "deposit": 1500,
+          "routes": [
+            "City",
+            "Doi Suthep"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_XMAX_300",
+        "label": "Yamaha XMAX 300",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Premium Scooters",
+          "cc": 300,
+          "daily": 750,
+          "monthly": 12000,
+          "deposit": 3000,
+          "routes": [
+            "Mae Hong Son Loop",
+            "Pai",
+            "Mountain Highway"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_ADV_350",
+        "label": "Honda ADV 350",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Adventure Bikes",
+          "cc": 350,
+          "daily": 800,
+          "monthly": 13000,
+          "deposit": 3000,
+          "routes": [
+            "Mae Hong Son Loop",
+            "Pai",
+            "Doi Inthanon"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Adventure_Bikes",
+        "label": "Adventure Bikes",
+        "type": "Category",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Forza_350",
+        "label": "Honda Forza 350",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Premium Scooters",
+          "cc": 350,
+          "daily": 800,
+          "monthly": 13000,
+          "deposit": 3000,
+          "routes": [
+            "Mae Hong Son Loop",
+            "Pai",
+            "Highway Touring"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_NX500",
+        "label": "Honda NX500",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Adventure Bikes",
+          "cc": 500,
+          "daily": 1200,
+          "monthly": 22000,
+          "deposit": 5000,
+          "routes": [
+            "Mae Hong Son Loop",
+            "Off-Road",
+            "Nan Loop"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_CRF_300",
+        "label": "Honda CRF 300",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Off-Road / Enduro",
+          "cc": 300,
+          "daily": 900,
+          "monthly": 15000,
+          "deposit": 3000,
+          "routes": [
+            "Off-Road Trails",
+            "Doi Suthep Off-Road",
+            "Pai Off-Road"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Off-Road_/_Enduro",
+        "label": "Off-Road / Enduro",
+        "type": "Category",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Transalp_750",
+        "label": "Honda Transalp 750",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Adventure Bikes",
+          "cc": 750,
+          "daily": 1800,
+          "monthly": 32000,
+          "deposit": 10000,
+          "routes": [
+            "Mae Hong Son Loop",
+            "Long-Distance Touring"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Triumph_Scrambler_400X",
+        "label": "Triumph Scrambler 400X",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Adventure Bikes",
+          "cc": 400,
+          "daily": 1100,
+          "monthly": 20000,
+          "deposit": 5000,
+          "routes": [
+            "Mae Hong Son Loop",
+            "Samoeng Loop",
+            "Mountain Touring"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Triumph_Speed_400",
+        "label": "Triumph Speed 400",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Sports Bikes",
+          "cc": 400,
+          "daily": 1000,
+          "monthly": 18000,
+          "deposit": 5000,
+          "routes": [
+            "City & Mountain Highways"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Sports_Bikes",
+        "label": "Sports Bikes",
+        "type": "Category",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Royal_Enfield_350",
+        "label": "Royal Enfield 350",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Classic Bikes",
+          "cc": 350,
+          "daily": 900,
+          "monthly": 16000,
+          "deposit": 4000,
+          "routes": [
+            "Samoeng Loop",
+            "Pai",
+            "Scenic Rides"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Classic_Bikes",
+        "label": "Classic Bikes",
+        "type": "Category",
+        "meta": {}
+      }
+    },
+    {
+      "data": {
+        "id": "Kawasaki_KLX_230",
+        "label": "Kawasaki KLX 230",
+        "type": "Vehicle",
+        "meta": {
+          "category": "Off-Road / Enduro",
+          "cc": 230,
+          "daily": 800,
+          "monthly": 14000,
+          "deposit": 3000,
+          "routes": [
+            "Off-Road Trails",
+            "Mountain Dirt Roads"
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Topic_Price_And_Quotes",
+        "label": "Pricing, Rates & Quotes",
+        "type": "Topic",
+        "meta": {
+          "summary": "Inquiries regarding daily rates, multi-day tiered discounts, and currency quotes."
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Topic_Monthly_And_Long-Term",
+        "label": "Monthly & Long-Term Rentals",
+        "type": "Topic",
+        "meta": {
+          "summary": "Inquiries for 30+ day rentals, expat packages, and monthly maintenance."
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Topic_Mae_Hong_Son___Samoeng_Loop_And_Routes",
+        "label": "Route Suitability & Loop Recommendations",
+        "type": "Topic",
+        "meta": {
+          "summary": "Inquiries about mountain loops, steep hill climbs, and luggage/passenger capabilities."
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Topic_Delivery_And_Pickup",
+        "label": "Delivery, Hotel & Airport Services",
+        "type": "Topic",
+        "meta": {
+          "summary": "Inquiries about hotel delivery, CNX Airport pickup, and shop operating hours."
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Topic_License_And_Insurance_And_Deposit",
+        "label": "License, Deposit & Passport Requirements",
+        "type": "Topic",
+        "meta": {
+          "summary": "Inquiries about International Driving Permits (IDP), security deposits, and passport retention."
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Topic_Accessories_And_Gear",
+        "label": "Accessories, Helmets & Gear",
+        "type": "Topic",
+        "meta": {
+          "summary": "Inquiries about full-face helmets, phone holders, rain gear, and luggage racks."
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "Honda_Click_125cc_BELONGS_TO_City_Scooters",
+        "source": "Honda_Click_125cc",
+        "target": "City_Scooters",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Click_125cc_REQUIRES_IDP_License",
+        "source": "Honda_Click_125cc",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Click_125cc_REQUIRES_Deposit_Cash",
+        "source": "Honda_Click_125cc",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Click_160cc_BELONGS_TO_City_Scooters",
+        "source": "Honda_Click_160cc",
+        "target": "City_Scooters",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Click_160cc_REQUIRES_IDP_License",
+        "source": "Honda_Click_160cc",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Click_160cc_REQUIRES_Deposit_Cash",
+        "source": "Honda_Click_160cc",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_PCX_160_BELONGS_TO_Premium_Scooters",
+        "source": "Honda_PCX_160",
+        "target": "Premium_Scooters",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_PCX_160_REQUIRES_IDP_License",
+        "source": "Honda_PCX_160",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_PCX_160_REQUIRES_Deposit_Cash",
+        "source": "Honda_PCX_160",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_PCX_160_SUITABLE_FOR_SamoengLoop",
+        "source": "Honda_PCX_160",
+        "target": "SamoengLoop",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_NMAX_155_BELONGS_TO_Premium_Scooters",
+        "source": "Yamaha_NMAX_155",
+        "target": "Premium_Scooters",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_NMAX_155_REQUIRES_IDP_License",
+        "source": "Yamaha_NMAX_155",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_NMAX_155_REQUIRES_Deposit_Cash",
+        "source": "Yamaha_NMAX_155",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_NMAX_155_SUITABLE_FOR_SamoengLoop",
+        "source": "Yamaha_NMAX_155",
+        "target": "SamoengLoop",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_Aerox_155_BELONGS_TO_City_Scooters",
+        "source": "Yamaha_Aerox_155",
+        "target": "City_Scooters",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_Aerox_155_REQUIRES_IDP_License",
+        "source": "Yamaha_Aerox_155",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_Aerox_155_REQUIRES_Deposit_Cash",
+        "source": "Yamaha_Aerox_155",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_XMAX_300_BELONGS_TO_Premium_Scooters",
+        "source": "Yamaha_XMAX_300",
+        "target": "Premium_Scooters",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_XMAX_300_REQUIRES_IDP_License",
+        "source": "Yamaha_XMAX_300",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_XMAX_300_REQUIRES_Deposit_Cash",
+        "source": "Yamaha_XMAX_300",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_XMAX_300_SUITABLE_FOR_MaeHongSonLoop",
+        "source": "Yamaha_XMAX_300",
+        "target": "MaeHongSonLoop",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Yamaha_XMAX_300_SUITABLE_FOR_PaiRoute",
+        "source": "Yamaha_XMAX_300",
+        "target": "PaiRoute",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_ADV_350_BELONGS_TO_Adventure_Bikes",
+        "source": "Honda_ADV_350",
+        "target": "Adventure_Bikes",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_ADV_350_REQUIRES_IDP_License",
+        "source": "Honda_ADV_350",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_ADV_350_REQUIRES_Deposit_Cash",
+        "source": "Honda_ADV_350",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_ADV_350_SUITABLE_FOR_MaeHongSonLoop",
+        "source": "Honda_ADV_350",
+        "target": "MaeHongSonLoop",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_ADV_350_SUITABLE_FOR_PaiRoute",
+        "source": "Honda_ADV_350",
+        "target": "PaiRoute",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Forza_350_BELONGS_TO_Premium_Scooters",
+        "source": "Honda_Forza_350",
+        "target": "Premium_Scooters",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Forza_350_REQUIRES_IDP_License",
+        "source": "Honda_Forza_350",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Forza_350_REQUIRES_Deposit_Cash",
+        "source": "Honda_Forza_350",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Forza_350_SUITABLE_FOR_MaeHongSonLoop",
+        "source": "Honda_Forza_350",
+        "target": "MaeHongSonLoop",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Forza_350_SUITABLE_FOR_PaiRoute",
+        "source": "Honda_Forza_350",
+        "target": "PaiRoute",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_NX500_BELONGS_TO_Adventure_Bikes",
+        "source": "Honda_NX500",
+        "target": "Adventure_Bikes",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_NX500_REQUIRES_IDP_License",
+        "source": "Honda_NX500",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_NX500_REQUIRES_Deposit_Cash",
+        "source": "Honda_NX500",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_NX500_SUITABLE_FOR_MaeHongSonLoop",
+        "source": "Honda_NX500",
+        "target": "MaeHongSonLoop",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_CRF_300_BELONGS_TO_Off-Road_/_Enduro",
+        "source": "Honda_CRF_300",
+        "target": "Off-Road_/_Enduro",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_CRF_300_REQUIRES_IDP_License",
+        "source": "Honda_CRF_300",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_CRF_300_REQUIRES_Deposit_Cash",
+        "source": "Honda_CRF_300",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_CRF_300_SUITABLE_FOR_PaiRoute",
+        "source": "Honda_CRF_300",
+        "target": "PaiRoute",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Transalp_750_BELONGS_TO_Adventure_Bikes",
+        "source": "Honda_Transalp_750",
+        "target": "Adventure_Bikes",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Transalp_750_REQUIRES_IDP_License",
+        "source": "Honda_Transalp_750",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Transalp_750_REQUIRES_Deposit_Cash",
+        "source": "Honda_Transalp_750",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Honda_Transalp_750_SUITABLE_FOR_MaeHongSonLoop",
+        "source": "Honda_Transalp_750",
+        "target": "MaeHongSonLoop",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Triumph_Scrambler_400X_BELONGS_TO_Adventure_Bikes",
+        "source": "Triumph_Scrambler_400X",
+        "target": "Adventure_Bikes",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Triumph_Scrambler_400X_REQUIRES_IDP_License",
+        "source": "Triumph_Scrambler_400X",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Triumph_Scrambler_400X_REQUIRES_Deposit_Cash",
+        "source": "Triumph_Scrambler_400X",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Triumph_Scrambler_400X_SUITABLE_FOR_MaeHongSonLoop",
+        "source": "Triumph_Scrambler_400X",
+        "target": "MaeHongSonLoop",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Triumph_Scrambler_400X_SUITABLE_FOR_SamoengLoop",
+        "source": "Triumph_Scrambler_400X",
+        "target": "SamoengLoop",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Triumph_Speed_400_BELONGS_TO_Sports_Bikes",
+        "source": "Triumph_Speed_400",
+        "target": "Sports_Bikes",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Triumph_Speed_400_REQUIRES_IDP_License",
+        "source": "Triumph_Speed_400",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Triumph_Speed_400_REQUIRES_Deposit_Cash",
+        "source": "Triumph_Speed_400",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Royal_Enfield_350_BELONGS_TO_Classic_Bikes",
+        "source": "Royal_Enfield_350",
+        "target": "Classic_Bikes",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Royal_Enfield_350_REQUIRES_IDP_License",
+        "source": "Royal_Enfield_350",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Royal_Enfield_350_REQUIRES_Deposit_Cash",
+        "source": "Royal_Enfield_350",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Royal_Enfield_350_SUITABLE_FOR_SamoengLoop",
+        "source": "Royal_Enfield_350",
+        "target": "SamoengLoop",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Royal_Enfield_350_SUITABLE_FOR_PaiRoute",
+        "source": "Royal_Enfield_350",
+        "target": "PaiRoute",
+        "label": "SUITABLE_FOR"
+      }
+    },
+    {
+      "data": {
+        "id": "Kawasaki_KLX_230_BELONGS_TO_Off-Road_/_Enduro",
+        "source": "Kawasaki_KLX_230",
+        "target": "Off-Road_/_Enduro",
+        "label": "BELONGS_TO"
+      }
+    },
+    {
+      "data": {
+        "id": "Kawasaki_KLX_230_REQUIRES_IDP_License",
+        "source": "Kawasaki_KLX_230",
+        "target": "IDP_License",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "Kawasaki_KLX_230_REQUIRES_Deposit_Cash",
+        "source": "Kawasaki_KLX_230",
+        "target": "Deposit_Cash",
+        "label": "REQUIRES"
+      }
+    },
+    {
+      "data": {
+        "id": "MrPopShop_HANDLES_INQUIRY_Topic_Price_And_Quotes",
+        "source": "MrPopShop",
+        "target": "Topic_Price_And_Quotes",
+        "label": "HANDLES_INQUIRY"
+      }
+    },
+    {
+      "data": {
+        "id": "MrPopShop_HANDLES_INQUIRY_Topic_Monthly_And_Long-Term",
+        "source": "MrPopShop",
+        "target": "Topic_Monthly_And_Long-Term",
+        "label": "HANDLES_INQUIRY"
+      }
+    },
+    {
+      "data": {
+        "id": "MrPopShop_HANDLES_INQUIRY_Topic_Mae_Hong_Son___Samoeng_Loop_And_Routes",
+        "source": "MrPopShop",
+        "target": "Topic_Mae_Hong_Son___Samoeng_Loop_And_Routes",
+        "label": "HANDLES_INQUIRY"
+      }
+    },
+    {
+      "data": {
+        "id": "MrPopShop_HANDLES_INQUIRY_Topic_Delivery_And_Pickup",
+        "source": "MrPopShop",
+        "target": "Topic_Delivery_And_Pickup",
+        "label": "HANDLES_INQUIRY"
+      }
+    },
+    {
+      "data": {
+        "id": "MrPopShop_HANDLES_INQUIRY_Topic_License_And_Insurance_And_Deposit",
+        "source": "MrPopShop",
+        "target": "Topic_License_And_Insurance_And_Deposit",
+        "label": "HANDLES_INQUIRY"
+      }
+    },
+    {
+      "data": {
+        "id": "MrPopShop_HANDLES_INQUIRY_Topic_Accessories_And_Gear",
+        "source": "MrPopShop",
+        "target": "Topic_Accessories_And_Gear",
+        "label": "HANDLES_INQUIRY"
+      }
+    },
+    {
+      "data": {
+        "id": "HotelDelivery_SERVES_LOCATION_Nimman",
+        "source": "HotelDelivery",
+        "target": "Nimman",
+        "label": "SERVES_LOCATION"
+      }
+    },
+    {
+      "data": {
+        "id": "HotelDelivery_SERVES_LOCATION_CNXAirport",
+        "source": "HotelDelivery",
+        "target": "CNXAirport",
+        "label": "SERVES_LOCATION"
+      }
+    }
+  ]
+}

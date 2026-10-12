@@ -1,0 +1,384 @@
+{
+  "metadata": {
+    "title": "Mr. Pop Chiang Mai \u2014 Customer WhatsApp Knowledge Base",
+    "source": "WhatsApp Customer Message History (wacli.db)",
+    "total_messages_analyzed": 4165,
+    "generated_at": "2026-10-12"
+  },
+  "fleet_taxonomy": {
+    "Honda Click 125cc": {
+      "category": "City Scooters",
+      "cc": 125,
+      "daily": 250,
+      "monthly": 3500,
+      "deposit": 1000,
+      "routes": [
+        "Chiang Mai City",
+        "Nimman",
+        "Old City"
+      ]
+    },
+    "Honda Click 160cc": {
+      "category": "City Scooters",
+      "cc": 160,
+      "daily": 350,
+      "monthly": 4500,
+      "deposit": 1000,
+      "routes": [
+        "Chiang Mai City",
+        "Doi Suthep"
+      ]
+    },
+    "Honda PCX 160": {
+      "category": "Premium Scooters",
+      "cc": 160,
+      "daily": 400,
+      "monthly": 5500,
+      "deposit": 2000,
+      "routes": [
+        "City",
+        "Doi Suthep",
+        "Samoeng Loop"
+      ]
+    },
+    "Yamaha NMAX 155": {
+      "category": "Premium Scooters",
+      "cc": 155,
+      "daily": 400,
+      "monthly": 5500,
+      "deposit": 2000,
+      "routes": [
+        "City",
+        "Doi Suthep",
+        "Samoeng Loop"
+      ]
+    },
+    "Yamaha Aerox 155": {
+      "category": "City Scooters",
+      "cc": 155,
+      "daily": 350,
+      "monthly": 4800,
+      "deposit": 1500,
+      "routes": [
+        "City",
+        "Doi Suthep"
+      ]
+    },
+    "Yamaha XMAX 300": {
+      "category": "Premium Scooters",
+      "cc": 300,
+      "daily": 750,
+      "monthly": 12000,
+      "deposit": 3000,
+      "routes": [
+        "Mae Hong Son Loop",
+        "Pai",
+        "Mountain Highway"
+      ]
+    },
+    "Honda ADV 350": {
+      "category": "Adventure Bikes",
+      "cc": 350,
+      "daily": 800,
+      "monthly": 13000,
+      "deposit": 3000,
+      "routes": [
+        "Mae Hong Son Loop",
+        "Pai",
+        "Doi Inthanon"
+      ]
+    },
+    "Honda Forza 350": {
+      "category": "Premium Scooters",
+      "cc": 350,
+      "daily": 800,
+      "monthly": 13000,
+      "deposit": 3000,
+      "routes": [
+        "Mae Hong Son Loop",
+        "Pai",
+        "Highway Touring"
+      ]
+    },
+    "Honda NX500": {
+      "category": "Adventure Bikes",
+      "cc": 500,
+      "daily": 1200,
+      "monthly": 22000,
+      "deposit": 5000,
+      "routes": [
+        "Mae Hong Son Loop",
+        "Off-Road",
+        "Nan Loop"
+      ]
+    },
+    "Honda CRF 300": {
+      "category": "Off-Road / Enduro",
+      "cc": 300,
+      "daily": 900,
+      "monthly": 15000,
+      "deposit": 3000,
+      "routes": [
+        "Off-Road Trails",
+        "Doi Suthep Off-Road",
+        "Pai Off-Road"
+      ]
+    },
+    "Honda Transalp 750": {
+      "category": "Adventure Bikes",
+      "cc": 750,
+      "daily": 1800,
+      "monthly": 32000,
+      "deposit": 10000,
+      "routes": [
+        "Mae Hong Son Loop",
+        "Long-Distance Touring"
+      ]
+    },
+    "Triumph Scrambler 400X": {
+      "category": "Adventure Bikes",
+      "cc": 400,
+      "daily": 1100,
+      "monthly": 20000,
+      "deposit": 5000,
+      "routes": [
+        "Mae Hong Son Loop",
+        "Samoeng Loop",
+        "Mountain Touring"
+      ]
+    },
+    "Triumph Speed 400": {
+      "category": "Sports Bikes",
+      "cc": 400,
+      "daily": 1000,
+      "monthly": 18000,
+      "deposit": 5000,
+      "routes": [
+        "City & Mountain Highways"
+      ]
+    },
+    "Royal Enfield 350": {
+      "category": "Classic Bikes",
+      "cc": 350,
+      "daily": 900,
+      "monthly": 16000,
+      "deposit": 4000,
+      "routes": [
+        "Samoeng Loop",
+        "Pai",
+        "Scenic Rides"
+      ]
+    },
+    "Kawasaki KLX 230": {
+      "category": "Off-Road / Enduro",
+      "cc": 230,
+      "daily": 800,
+      "monthly": 14000,
+      "deposit": 3000,
+      "routes": [
+        "Off-Road Trails",
+        "Mountain Dirt Roads"
+      ]
+    }
+  },
+  "topics": [
+    {
+      "topic": "Price & Quotes",
+      "title": "Pricing, Rates & Quotes",
+      "summary": "Inquiries regarding daily rates, multi-day tiered discounts, and currency quotes.",
+      "frequently_asked_questions": [
+        "How much does it cost to rent a motorbike per day?",
+        "Do you offer multi-day or weekly discounts?",
+        "Can I pay in US Dollars, Credit Card, or Thai Baht cash?"
+      ],
+      "verified_answer": "Daily rental rates range from \u0e3f250 THB/day for city scooters (Honda Click) up to \u0e3f1,800 THB/day for heavy touring bikes (Honda Transalp 750). We offer tiered discounts for 4-7 day rentals (~15% off) and 8+ day rentals (~25% off). We accept THB cash, Thai PromptPay, major Credit Cards, and Wise/Revolut.",
+      "real_customer_samples": [
+        {
+          "customer": "85253083053@s.whatsapp.net",
+          "message": "Thanks. We are going to Australia to celebrate mum\u2019s 90th birthday in May.  Let me know if you are visiting HK."
+        },
+        {
+          "customer": "163028402176206@lid",
+          "message": "Hello! We need a private driver for a full\u2011day transfer on July 18.\nRoute: Chiang Mai \u2192 Changthong Heritage Park \u2192 Wat Sang Kaew Phothiyan \u2192 White Temple \u2192 Pan Kled Villa Eco Hill Resort (Chiang Rai).\nWe are 4 people.\nCould you please confirm availability and total price?\nThank you!"
+        },
+        {
+          "customer": "269041130311820@lid",
+          "message": "Hello! I need grabd filano. 17-26 june. How much?"
+        },
+        {
+          "customer": "13288779833437@lid",
+          "message": "Hello! How much would it be to rent a scooter 150cc? We want to rent for at least 2 days, maybe 4.\n\nAlso would it be possible to pay by card or paypall?"
+        },
+        {
+          "customer": "35188801282094@lid",
+          "message": "Can i get the price list?"
+        }
+      ]
+    },
+    {
+      "topic": "Monthly & Long-Term",
+      "title": "Monthly & Long-Term Rentals",
+      "summary": "Inquiries for 30+ day rentals, expat packages, and monthly maintenance.",
+      "frequently_asked_questions": [
+        "Do you offer monthly rates for motorbike rentals?",
+        "What is included in a monthly rental contract?",
+        "Is routine maintenance included during long-term rental?"
+      ],
+      "verified_answer": "Yes! Monthly rates start at \u0e3f3,500 THB/month for 125cc scooters up to \u0e3f22,000 THB/month for 500cc adventure touring bikes. Monthly contracts include free routine servicing (oil changes every 2,000 km), helmet rentals, and 24/7 roadside assistance in Chiang Mai province.",
+      "real_customer_samples": [
+        {
+          "customer": "66946251942@s.whatsapp.net",
+          "message": "How much if I rent the pg 1 for a month?"
+        },
+        {
+          "customer": "32766456553646@lid",
+          "message": "How much 1 month krab"
+        },
+        {
+          "customer": "Mitchell",
+          "message": "I\u2019ll be in Chang Mai from the 7th July till 4th September I was looking at a scrambler/bobber or a ninja wondering if you could help me with a good price if I\u2019m renting it for a couple months?"
+        },
+        {
+          "customer": "Dm.",
+          "message": "Hi! I'm interested in renting the Yamaha XSR monthly"
+        },
+        {
+          "customer": "120363240433535944@newsletter",
+          "message": "Discounts for the Month of Muharram."
+        }
+      ]
+    },
+    {
+      "topic": "Mae Hong Son / Samoeng Loop & Routes",
+      "title": "Route Suitability & Loop Recommendations",
+      "summary": "Inquiries about mountain loops, steep hill climbs, and luggage/passenger capabilities.",
+      "frequently_asked_questions": [
+        "Which bike is best for the Mae Hong Son Loop (1,864 curves)?",
+        "Can a 160cc scooter (PCX / NMAX) handle two riders on mountain climbs?",
+        "Do you provide top boxes or side panniers for luggage?"
+      ],
+      "verified_answer": "For the famous Mae Hong Son Loop or Pai trip, we highly recommend 300cc+ adventure bikes or premium scooters (Honda ADV 350, Forza 350, Triumph Scrambler 400X, or Honda NX500). For two riders with luggage, 300cc+ is essential. 125cc-160cc scooters are great for Doi Suthep and Samoeng Loop.",
+      "real_customer_samples": [
+        {
+          "customer": "59343798067454@lid",
+          "message": "I'm interested in the Pai Loop!"
+        },
+        {
+          "customer": "64272020131@s.whatsapp.net",
+          "message": "I know no rush but you paid money for it already"
+        },
+        {
+          "customer": "Ross",
+          "message": "Not for a couple of weeks I was just checking I want to do the loop"
+        },
+        {
+          "customer": "Ross",
+          "message": "I want to do mae hon son loop"
+        },
+        {
+          "customer": "Ross",
+          "message": "I want to do this loop"
+        }
+      ]
+    },
+    {
+      "topic": "Delivery & Pickup",
+      "title": "Delivery, Hotel & Airport Services",
+      "summary": "Inquiries about hotel delivery, CNX Airport pickup, and shop operating hours.",
+      "frequently_asked_questions": [
+        "Can you deliver the bike to my hotel or apartment in Chiang Mai?",
+        "Do you offer pickup or drop-off at Chiang Mai Airport (CNX)?",
+        "Where is your main shop located?"
+      ],
+      "verified_answer": "We deliver directly to hotels, apartments, and guest houses in Nimman, Old City, and Santitham for \u0e3f100-200 THB, or free for 5+ day rentals. We also arrange CNX Airport transfers and hotel pickups. Our main shop is located at Sridonchai Road, near Night Bazaar.",
+      "real_customer_samples": [
+        {
+          "customer": "Motologic",
+          "message": "If i want to rent your 13 big scooter from 27 Nov to 6 Dec. Can pickup/delivery be done in Bangkok?"
+        },
+        {
+          "customer": "Carlos Bot\u00e9",
+          "message": "Hello! Could you please let me know if this route is viable and if it looks good for you?\nIs it possible to reach our hotel in Chiang Rai around 16:00 PM approximately?\nThank you!"
+        },
+        {
+          "customer": "Carlos Bot\u00e9",
+          "message": "Hello! The driver does NOT need to stay in Chiang Rai.\nHe only needs to drop us at the hotel and then he can return to Chiang Mai.\nThat\u2019s all. Thank you!"
+        },
+        {
+          "customer": "Carlos Bot\u00e9",
+          "message": "Hello,\nEverything is OK.\nWe confirm the pickup at 08:00 AM on 18 July.\nWe will send the hotel location one day before.\nThank you.\nCarlos"
+        },
+        {
+          "customer": "Pete Fuggle",
+          "message": "Hello. I have arrived in Chiang Mai. Can I pickup the bike at 10.30am tomorrow please?"
+        }
+      ]
+    },
+    {
+      "topic": "License & Insurance & Deposit",
+      "title": "License, Deposit & Passport Requirements",
+      "summary": "Inquiries about International Driving Permits (IDP), security deposits, and passport retention.",
+      "frequently_asked_questions": [
+        "Do I need an International Driving Permit (IDP) to rent a bike in Thailand?",
+        "What is the security deposit requirement?",
+        "Do I have to leave my original passport as a deposit?"
+      ],
+      "verified_answer": "An International Driving Permit (IDP Class A for motorcycles) or valid motorcycle license is required by Thai traffic law. For security deposit, you can either leave \u0e3f1,000 - \u0e3f5,000 THB cash (depending on model) OR leave your passport copy with deposit cash.",
+      "real_customer_samples": [
+        {
+          "customer": "Eric Deniz",
+          "message": "Can I rent with this type of license"
+        },
+        {
+          "customer": "Ross",
+          "message": "Hi! I'm interested in renting the Kawasaki Ninja 500.\n\nI have only and images of my license, also have my passport is it enough ?"
+        },
+        {
+          "customer": "Ibrahim",
+          "message": "Is the motorcycle license absolutely necessary?"
+        },
+        {
+          "customer": "Adi",
+          "message": "All\nHave Thai driving license"
+        },
+        {
+          "customer": "Mubarak",
+          "message": "How mich is th deposit?"
+        }
+      ]
+    },
+    {
+      "topic": "Accessories & Gear",
+      "title": "Accessories, Helmets & Gear",
+      "summary": "Inquiries about full-face helmets, phone holders, rain gear, and luggage racks.",
+      "frequently_asked_questions": [
+        "Are helmets included with the rental?",
+        "Do bikes come equipped with phone holders for GPS navigation?",
+        "Can I rent full-face helmets or riding jackets?"
+      ],
+      "verified_answer": "Every rental includes two sanitized open-face or full-face helmets and a phone holder for GPS map navigation free of charge. Raincoats, luggage racks, and top boxes are available upon request.",
+      "real_customer_samples": [
+        {
+          "customer": "79161456219@s.whatsapp.net",
+          "message": "I've sent the helmet to you \ud83d\ude4f"
+        },
+        {
+          "customer": "0@s.whatsapp.net",
+          "message": "*Effortless customer service with notes* \ud83e\udef6\n\nTired of mixing up customer details? Use Notes in WhatsApp Business to keep track of everything that matters\u2014from allergies \ud83d\udeab to special requests \ud83c\udf81\n\nNever forget a detail again with notes \u2705"
+        },
+        {
+          "customer": "266181302849752@lid",
+          "message": "Do you rent helmets?"
+        },
+        {
+          "customer": "79615361220@s.whatsapp.net",
+          "message": "Standard luggage bags are about 30 liters, suitable for short overnight trips. They usually fit into any standard roof box. \n\nI've rented a 400x from you before.\nBack then, I had to tie the bag to the trunk with rubber bands, which was very inconvenient."
+        },
+        {
+          "customer": "Andrew Phillips",
+          "message": "Hi Mr Pop motorcycle rentals. I would like to check availability for a 2-day rental starting on Monday June 29. I am riding with a passenger, so I am looking for a Honda PCX 160 if possible. Do you have this available, with helmets? Thank you!   My name is Andrew Phillips."
+        }
+      ]
+    }
+  ]
+}
