@@ -1,16 +1,33 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { CopilotRuntime, EmptyAdapter, copilotRuntimeNodeHttpEndpoint } from '@copilotkit/runtime';
+import { CopilotRuntime, copilotRuntimeNodeHttpEndpoint } from '@copilotkit/runtime';
+
+class MrPopUiAgent {
+  constructor() {
+    this.name = 'default';
+    this.description = 'Mr. Pop Chiang Mai AG-UI AI Assistant';
+  }
+  clone() {
+    return this;
+  }
+  async execute(options) {
+    return {
+      message: "Mr. Pop AI Assistant ready."
+    };
+  }
+}
 
 // Official CopilotRuntime Node Middleware for Vite Dev Server
 function copilotRuntimeVitePlugin() {
-  const serviceAdapter = new EmptyAdapter();
-  const runtime = new CopilotRuntime();
+  const runtime = new CopilotRuntime({
+    agents: {
+      default: new MrPopUiAgent()
+    }
+  });
 
   const handleCopilotRequest = copilotRuntimeNodeHttpEndpoint({
     endpoint: '/api/copilotkit',
     runtime,
-    serviceAdapter,
   });
 
   return {
