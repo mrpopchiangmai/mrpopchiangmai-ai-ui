@@ -1,7 +1,7 @@
 import React from 'react';
-import { Bot, Sparkles, FileText, Globe, ShieldCheck, MapPin } from 'lucide-react';
+import { Bot, Sparkles, FileText, Globe, ShieldCheck, MapPin, Database } from 'lucide-react';
 
-export default function Header({ currency, setCurrency, onOpenLlmTxt }) {
+export default function Header({ currency, setCurrency, onOpenLlmTxt, onOpenKbAdmin }) {
   return (
     <header className="sticky top-0 z-40 w-full border-b border-zinc-800 bg-[#0A0A0A]/90 backdrop-blur-xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,7 +37,7 @@ export default function Header({ currency, setCurrency, onOpenLlmTxt }) {
           </div>
 
           {/* Controls & Actions */}
-          <div className="flex items-center gap-2 sm:gap-4">
+          <div className="flex items-center gap-2 sm:gap-3">
             
             {/* Currency Switcher */}
             <div className="flex items-center bg-zinc-900 p-1 rounded-lg border border-zinc-800 text-xs font-medium">
@@ -62,6 +62,16 @@ export default function Header({ currency, setCurrency, onOpenLlmTxt }) {
                 $ USD
               </button>
             </div>
+
+            {/* KB Admin Desk Trigger */}
+            <button
+              onClick={onOpenKbAdmin}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-yellow-400/10 border border-yellow-400/30 text-xs font-bold text-yellow-400 hover:bg-yellow-400/20 transition"
+              title="Open Knowledge Base Quality & Baseline Admin Desk"
+            >
+              <Database className="w-3.5 h-3.5 text-yellow-400" />
+              <span className="hidden sm:inline">KB Admin</span>
+            </button>
 
             {/* llms.txt standard trigger */}
             <button

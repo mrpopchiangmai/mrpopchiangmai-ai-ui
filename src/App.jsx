@@ -9,6 +9,7 @@ import VehicleCard from './components/VehicleCard';
 import VisionAiVerification from './components/VisionAiVerification';
 import CheckoutModal from './components/CheckoutModal';
 import LlmTxtModal from './components/LlmTxtModal';
+import KbAdminModal from './components/KbAdminModal';
 import Footer from './components/Footer';
 import { FLEET_DATA } from './data/fleet';
 import { queryFreeTierLlm } from './services/ai';
@@ -26,6 +27,7 @@ function MrPopRentalApp() {
   const [verifiedDoc, setVerifiedDoc] = useState(null);
   const [step, setStep] = useState(null); // 'vision-ai' | 'checkout' | null
   const [showLlmModal, setShowLlmModal] = useState(false);
+  const [showKbAdmin, setShowKbAdmin] = useState(false);
 
   // Make fleet readable to AG-UI Agent
   useCopilotReadable({
@@ -141,6 +143,7 @@ function MrPopRentalApp() {
         currency={currency}
         setCurrency={setCurrency}
         onOpenLlmTxt={() => setShowLlmModal(true)}
+        onOpenKbAdmin={() => setShowKbAdmin(true)}
       />
 
       {/* Hero & AI Conversational Bar */}
@@ -296,6 +299,10 @@ function MrPopRentalApp() {
 
       {showLlmModal && (
         <LlmTxtModal onClose={() => setShowLlmModal(false)} />
+      )}
+
+      {showKbAdmin && (
+        <KbAdminModal onClose={() => setShowKbAdmin(false)} />
       )}
 
     </div>
